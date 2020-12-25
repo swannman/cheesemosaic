@@ -1,0 +1,11 @@
+name = "cheesemosaic"
+type = "webpack"
+account_id = "e586791371224fd8a71725fce7f6f1a6"
+workers_dev = true
+
+[env.production]
+zone_id = "77adccdb07ea5899881e4ed1c96a2428"
+route = "*cheesemosaic.com/*"
+
+[site]
+bucket = "./public"
